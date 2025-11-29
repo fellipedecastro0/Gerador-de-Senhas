@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+    <div class="hero">
+        <h1>Gerador de senhas</h1>
+
+        <div class="input-box">
+            <input type="text" id="password" value="Sua senha aqui" readonly >
+            <button id="copy">📋</button>
+        </div>
+
+        <div class="length-box">
+           <label for="length">Tamanho: <span id="length-value">12</span></label> 
+           <input type="range" id="length" min="4" max="32" value="12">
+        </div>
+
+        <div class="checkbox-box">
+            <div class="check-group">
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">Maiúsculas (A-Z)</label> 
+            </div>
+
+            <div class="check-group">
+                <input type="checkbox" id="lowerCase">
+                <label for="lowerCase">Minúsculas (a-z)</label> 
+            </div>
+
+            <div class="check-group">
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Números (0-9)</label>
+            </div>
+
+            <div class="check-group">
+                <input type="checkbox" id="symbols">
+                <label for="symbols">Símbolos (@#$)</label>
+            </div>
+        </div>
+        <div id="strength-bar"></div>
+        <button id="generate">Gerar Senha</button>
+    </div>
+   </main>
+</body>
+</html>

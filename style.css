@@ -1,0 +1,39 @@
+* {
+    margin: 0px ;
+    padding: 0px;
+
+}
+
+
+body {
+    background-color: #2c3e50;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 15px;
+    
+}
+
+.input-box {
+    background-color: white;
+    padding: 5px 10px;      
+    border-radius: 8px;      
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+}
