@@ -1,20 +1,19 @@
-# 🔐 Gerador de Senhas Seguro
+#  Gerador de Senhas Seguro
 
 > Um aplicativo web simples e eficiente para gerar senhas fortes e seguras, com análise de força em tempo real.
 
 ![Preview do Projeto](print.png)
-*(Dica: Tire um print da tela do seu projeto, salve como "print.png" na pasta do projeto para aparecer aqui. Se não tiver print agora, pode apagar esta linha)*
 
-## 🚀 Demonstração (Live Preview)
+##  Demonstração (Live Preview)
 Acesse o projeto rodando online:
 👉 **[https://fellipedecastro0.github.io/Gerador-de-Senhas/](https://fellipedecastro0.github.io/Gerador-de-Senhas/)**
 
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 Este projeto foi desenvolvido para praticar manipulação de DOM e lógica de programação. Ele resolve a necessidade de criar senhas complexas de forma rápida, incluindo um **algoritmo visual de força de senha** que avalia não apenas o tamanho, mas a variedade de caracteres (entropia).
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 * ✅ **Geração Aleatória:** Cria senhas únicas instantaneamente.
 * 🎚️ **Controle de Tamanho:** Slider interativo para definir o comprimento (ex: 8 a 20 caracteres).
@@ -25,13 +24,13 @@ Este projeto foi desenvolvido para praticar manipulação de DOM e lógica de pr
     * Algoritmo de pontuação baseado em variedade + tamanho.
 * 📋 **Copiar para Área de Transferência:** Botão dedicado para copiar a senha com um clique.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **HTML5** (Estrutura semântica)
 * **CSS3** (Estilização moderna e responsiva)
 * **JavaScript** (Lógica de geração e manipulação do DOM)
 
-## 🧠 Lógica do "Medidor de Força"
+##  Lógica do "Medidor de Força"
 
 O diferencial deste projeto é que a barra de força não olha apenas o tamanho. Ela usa um sistema de pontos:
 1.  **Base:** Cada caractere adiciona pontos.
