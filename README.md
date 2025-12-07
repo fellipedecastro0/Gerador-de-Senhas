@@ -2,7 +2,7 @@
 
 > Um aplicativo web simples e eficiente para gerar senhas fortes e seguras, com análise de força em tempo real.
 
-![Preview do Projeto](print.png)
+
 
 ##  Demonstração (Live Preview)
 Acesse o projeto rodando online:
